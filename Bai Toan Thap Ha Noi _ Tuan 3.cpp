@@ -14,7 +14,7 @@ void hanoi(int n, char A, char B, char C) //A la goc, B la dich, C la trung gian
         // Buoc 2: Chuyen dia lon nhat tu A sang B
         printf("Chuyen dia %d tu %c sang %c\n", n, A, B); 
 
-        // Buo2c 3: Chuyen n-1 dia tu C sang B
+        // Buoc 3: Chuyen n-1 dia tu C sang B
         hanoi(n - 1, C, B, A);
     }
 }
